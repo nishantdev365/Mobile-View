@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mobile View</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div id="inner_wrap">
+
+        <!--The Main Thing-->
+        <div id="wrapper" style="perspective: 1300px;">
+            <div class="phone view_2" id="phone_1" style="width: 360px; height: 640px;">
+                <iframe src="https://nishantdev365.github.io/Portfolio-v2/" id="frame_1"></iframe>
+            </div>
+        </div>
+
+        <!--Controls etc.-->
+        <div id="controls">
+           
+            <div>
+                <label for="iframePerspective">Add perspective:</label>
+                <input type="checkbox" id="iframePerspective" checked="true">
+            </div>
+
+        </div>
+
+        <div id="phone-controls">
+
+            <div id="views">
+                <button value="1">Table View</button>
+                <button value="2">Front View</button>
+            </div>
+
+            <div id="phones">
+                <button value="1">iPhone</button>
+                <button value="5">iPad Mini</button>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
